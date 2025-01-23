@@ -1,4 +1,4 @@
-            ✨ Projet MovieDB : Intégration Figma et API (Première Utilisation) ✨
+                        ✨ Projet MovieDB : Intégration Figma et API (Première Utilisation) ✨
 
 
 
@@ -43,7 +43,7 @@ Ce projet a été une excellente occasion de découvrir comment dynamiser un sit
 
 ```
 git clone https://github.com/BertrandM22/MovieDBProject.git           
-cd MovieDBProject
+
 ```
 
 2. Ouvrir le projet :
