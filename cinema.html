@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEMOVIES</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="cinema.css" />
+</head>
+
+<body>
+
+
+    <header class="container-page" id="myheader">
+        <div id="headercontainer">
+            <div class="logo-Text">
+                <h1><span class="be">BE</span>MOVIES</h1>
+            </div>
+
+            <div class="divmenu">
+                <ul id="nav-menu">
+                    <li><a href="#">search</a></li>
+                    <li><a href="#">latest</a></li>
+                    <li><a href="#">genres</a></li>
+                    <li><a href="#">register</a></li>
+                    <li><a href="#" id="loginnavbar">login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-page" id="search-section">
+        <div id="container-search-box">
+            <input type="text" id="searchInput" placeholder="search films...">
+            <button id="btn-search" >-></button>
+        </div>
+
+
+    </section>
+
+    <section class="search-results">
+
+        <div class="swiper mySwiper">
+            <div id="search-results" class="subtitles"> show here the results </div>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="" alt="Imagen 1"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 2"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 3"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 4"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 5"></div>
+
+            </div>
+            <!--  nav buttons-->
+            <div class="swiper-button-next"> </div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+    </section>
+
+    <!-- MODALS HTML -->
+
+    <!-- Modal registrer/signup   -->
+    <div id="myModal" class="modal">
+        <div id="modal-wrapper">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+
+
+                <div id="btns-div">
+                    <button id="signupbtn">signup</button>
+                    <button id="loginbtn">login</button>
+                </div>
+
+                <div id="signup-content">
+
+
+                </div>
+
+                <div class="Login-content">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <div id="checkbox-div">
+                        <input type="checkbox" id="rememberMe" name="rememberMe" class="remember-me-checkbox">
+                        <p>remember me </p>
+                        <!-- <label for="rememberMe" class="remember-me-label">Remember Me</label> -->
+                    </div>
+                    <button id="login-confirm-btn">Login</button>
+                    <p> <span>I forgot my password</span></p>
+                    <p> Not a member yet? <span>Sign up</span></p>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Modal popup movie  -->
+
+    <div id="myModalmovie" class="modalmovie">
+        <div id="modal-wrappermovie">
+            <span class="close-btnmovie">&times;</span>
+            <div class="modal-contentmovie">
+
+
+
+                <div id="img-divmovies">
+                    <img src="" alt="" class="img-popup">
+                </div>
+
+                <div id="movie-content">
+                    <h2 id="title-movie" class="tittlemovies">TITTLEtexttochange</h2>
+                    <p id="movieYear" class="subtitlemovies"> 2024-texttochange </p> <br>
+                    <h2 id="reviews" class="tittlemovies">★8.7texttochange</h2> <br>
+                    <p id="genre" class="subtitlemovies">CRIME/DRAMA7texttochange</p> <br>
+                    <p id="description" class="textmovies">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Modi veritatis cum ea alias, est commodi corporis id, sapiente quos tempore cupiditate delectus
+                        mollitia numquam quasi fugiat dolores aut cumque voluptatum!</p>
+                </div>
+
+                <div class="empty-div">
+
+                </div>
+
+                <div id="cast-div">
+                    <p class="subtitlemovies">CAST:</p>
+                    <p id="cast-content" class="subtitlemovies"> Lorem ipsum dolor sit amet.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- section_____________ -->
+    <section class="latest-releases">
+
+        <div class="swiper mySwiper">
+            <div id="latest" class="subtitles"> latest-releases </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="" alt="Imagen 1"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 2"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 3"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 4"></div>
+                <div class="swiper-slide"><img
+                        src=""
+                        alt="Imagen 5"></div>
+            </div>
+            <!-- nav buttons-->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
+
+    <section class="Movies-by-genre">
+
+        <div class="content-tab">
+
+            <p class="subtitles"> Movies by genre</p>
+
+            <ul id="nav-menu-tab">
+                <li><a href="#">comedy</a></li>
+                <li><a href="#">drama</a></li>
+                <li><a href="#">action</a></li>
+                <li><a href="#">romance</a></li>
+                <li><a href="#">fantasy</a></li>
+                <li><a href="#">animation</a></li>
+            </ul>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="swipper-movies-by-genre">
+        <div class="swiper mySwiper">
+            <div id="latest" class="subtitles"> comedy </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="" alt="Imagen 1"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 2"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 3"></div>
+                <div class="swiper-slide"><img src="" alt="Imagen 4"></div>
+                <div class="swiper-slide"><img
+                        src=""
+                        alt="Imagen 5"></div>
+            </div>
+            <!-- nav buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </section>
+
+
+
+    <footer class="container-page" id="myfooter">
+        <div id="footercontainer">
+            <div class="logo-Text">
+                <h1><span class="be">BE</span>MOVIES</h1>
+            </div>
+
+            <div class="divmenu">
+                <ul id="nav-menu">
+                    <li><a href="#">search</a></li>
+                    <li><a href="#">latest</a></li>
+                    <li><a href="#">genres</a></li>
+                    <li><a href="#">register</a></li>
+                    <li><a href="#">login</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <p> @2024 all rights reserved </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="cinema.js"></script>
+</body>
+
+</html>

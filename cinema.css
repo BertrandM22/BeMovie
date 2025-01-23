@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+  }
+  
+  li{
+    list-style: none;
+  }
+
+
+ 
+
+  
+.container-page {
+
+    margin: 0 auto;
+  }
+
+  
+header{
+    background-color: #141517;
+    font-family: "Inria Sans", sans-serif;
+}
+
+#headercontainer{
+    max-width: 1075px ;
+    margin: 0 auto;
+    background-color: #141517;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    color: white;
+}
+
+#nav-menu{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        gap: 15px;
+        font-size: .875rem ;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: white;
+        
+}
+
+.be{
+    color: #CC0000;
+}
+
+
+body{
+    background-color: #191B20;
+}
+
+  
+
+#container-search-box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top:50px ;
+}
+
+
+#searchInput{
+    
+    height: 44px;
+    width: 272px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+#btn-search{
+    background-color: #CC0000;
+    height: 44px;
+    width: 44px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    color: white;
+}
+
+ 
+
+.swiper{
+    max-width: 1075px;
+    margin-bottom: 100px;
+}
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 234px;
+    height: 351px;
+    display: block;
+    object-fit: cover;
+}
+
+
+ 
+.swiper {
+    max-width: 1075px;
+    margin-bottom: 100px;
+    position: relative; 
+    padding: 0 10px; 
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+
+.swiper-button-next {
+    right: -3px; 
+    font-size: 8px;
+}
+
+
+.swiper-button-prev {
+    left: -3px;  
+}
+
+
+ 
+
+#latest{
+    color: white;
+}
+
+
+ 
+
+
+.Movies-by-genre{
+
+    max-width: 1075px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+   
+}
+.content-tab p{
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+
+.content-tab {
+    padding-bottom: 20px;
+    border-bottom: solid 2px white;
+   
+}
+
+
+.subtitles {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    line-height: 19.36px;
+}
+
+#nav-menu-tab{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 3.125rem;
+    font-weight: 400;
+    color: white;
+
+    
+}
+#nav-menu-tab li {
+    background-color: transparent;
+    padding: 10px; 
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block; 
+}
+
+#nav-menu-tab li:hover {
+    background-color: #CC0000; 
+    box-shadow: 0px 0px 10px rgba(204, 0, 0, 0.5); 
+    transform: scale(1.05); 
+}
+  
+
+footer{
+    background-color: #141517;
+    font-family: "Inria Sans", sans-serif;
+}
+
+footer p{
+    color: #B8B8B8;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+ 
+#footercontainer{
+    max-width: 1075px ;
+    margin: 0 auto;
+    background-color: #141517;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    color: white;
+    min-height: 185px;
+} 
+
+
+
+
+  #myModal {
+    display: none;
+     
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ 
+.modal-content {
+
+    background-color: #000000;
+
+
+
+
+
+    color: white;
+    margin: 5% auto; 
+    padding: 15px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 410px; 
+    height: 608px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+
+
+
+  .close-btn {
+    position: absolute;   
+    top: 10%;            
+    left: 38% ; 
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  
+  .close-btn:hover,
+  .close-btn:focus {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #signupbtn , #loginbtn{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    min-height: 54px;
+    min-width: 144px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+  }
+
+  #signupbtn{
+    border: solid 2px white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: transparent;
+
+  }
+
+  #loginbtn{
+    background-color: #CC0000;
+    margin-left:-3px ;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+  }
+
+  #btns-div{
+    margin-bottom: 50px;
+    margin-top: 70px;
+    
+  }
+
+
+  .Login-content{
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+    
+  
+
+  }
+
+  .Login-content input {
+    height: 44px;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 8px;
+  }
+
+  .Login-content p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19.36px;
+   color: #ffffff;
+  }
+
+  .Login-content p span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #CC0000;
+   }
+
+  #checkbox-div {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 5px;         
+    margin-bottom: 15px;
+}
+
+.remember-me-checkbox {
+    width: 16px;         
+    height: 16px;
+    margin-top: 6px;
+    
+}
+
+#login-confirm-btn{
+    min-width: 288px;
+    min-height: 47px;
+    background-color: #CC0000;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+ 
+
+
+#myModalmovie {
+    display: none; 
+    position: fixed;
+    z-index: 9998;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#modal-wrappermovie {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ 
+.modal-contentmovie {
+
+    background-color: #000000;
+    color: white;
+    margin: 5% auto; 
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 742px; 
+    height: 526px;
+    
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 351px 1fr;
+    grid-template-columns: 234px 1fr;
+    gap: 15px;
+  
+
+} 
+
+
+
+  .close-btnmovie {
+    position: absolute;    
+    top: 13%;             
+    left: 27% ; 
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  
+  .close-btnmovie:hover,
+  .close-btnmovie:focus {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+
+
+.img-popup{
+    max-width:  234px;
+    min-height: 351px;
+    border: #FFFFFF solid 1px;
+}
+#img-divmovies{
+    
+    background-color: #aaa;
+}
+
+#movie-content,#cast-div{
+    margin-left: 20px;
+}
+
+.tittlemovies{
+    color: #CC0000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.tittlemovies{
+    color: #CC0000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.subtitlemovies{
+    color: #E9E9E9;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.textmovies{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Inria Sans", sans-serif;
+
+}
