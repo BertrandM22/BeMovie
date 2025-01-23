@@ -1,4 +1,4 @@
-                        ✨ Projet MovieDB : Intégration Figma et API (Première Utilisation) ✨
+                            ✨ Projet MovieDB : Intégration Figma et API (Première Utilisation) ✨
 
 
 
