@@ -6,7 +6,7 @@
  ![preview](assets/preview.png)
 
 
-## ✏ Description
+## Description
 Le projet MovieDB a été conçu pour combiner l'apprentissage de Figma et l'intégration d'API, en particulier MovieDB et Swiper. L'objectif était de créer un site web avec une structure pixel perfect basée sur une maquette Figma et d'y intégrer des éléments dynamiques via les API. Le projet a été réalisé en groupe de deux, avec une approche collaborative unique : chaque membre du groupe a d'abord conçu la partie visuelle (HTML/CSS) de manière indépendante. Ensuite, les membres ont échangé leurs fichiers HTML/CSS pour que chacun travaille exclusivement sur la partie JavaScript de l'autre, en intégrant les API sans modifier la structure initiale.
 
 ## Technologies utilisées
@@ -20,7 +20,7 @@ Le projet MovieDB a été conçu pour combiner l'apprentissage de Figma et l'int
 
 **Swiper** : Pour créer des carrousels interactifs et dynamiques, offrant une navigation fluide entre les éléments du site.
 
-## Caractéristiques principales 🚀
+## Caractéristiques principales 
 
 Design pixel perfect :
 La partie visuelle a été développée en suivant fidèlement la maquette Figma, garantissant une correspondance exacte entre le design et la version finale du site.
