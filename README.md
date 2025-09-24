@@ -39,7 +39,7 @@ Ce projet a été une excellente occasion de découvrir comment dynamiser un sit
 
 ## LIEN:
 [ICI](https://be-movie-woad.vercel.app/)
-## 🛠 Installation & Utilisation
+##  Installation & Utilisation
 
 1. Cloner le dépôt 
 
